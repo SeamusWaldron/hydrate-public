@@ -1,0 +1,40 @@
+name: Bug report
+description: Something broke — paste the receipt.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: doctor
+    attributes:
+      label: "Output of `hydrate doctor`"
+      description: "Paste the full, unredacted output. Nothing sensitive lives in doctor output."
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Version"
+      description: "`hydrate --version`"
+      placeholder: "hydrate v0.1.0-beta.2"
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: "Platform"
+      placeholder: "macOS 14.5 arm64 / Ubuntu 24.04 amd64 / WSL2 Ubuntu 22.04"
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: "What happened"
+      description: "What did you run? What did you expect? What did you see?"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs (optional)"
+      description: "Tail of `~/.hydrate/server.log` if relevant."
+      render: shell

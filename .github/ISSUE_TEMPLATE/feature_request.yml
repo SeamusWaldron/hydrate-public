@@ -1,0 +1,16 @@
+name: Feature request
+description: Something you wish Hydrate did.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What problem are you trying to solve?"
+      description: "Describe the pain. Don't jump to solutions."
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: "One possible solution"
+      description: "How you imagined it working. Happy to be overruled."

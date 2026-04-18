@@ -2,7 +2,7 @@
 
 **Episodic memory for Claude Code.** See [gethydrate.dev](https://gethydrate.dev) for what it is and why.
 
-This repo hosts **release binaries** and **issues / discussions** for Hydrate. The binary source is private.
+This repo is Hydrate's **public face** — binary releases, bug reports, discussions. The binary source is private.
 
 ## Install
 
@@ -10,16 +10,16 @@ This repo hosts **release binaries** and **issues / discussions** for Hydrate. T
 curl -fsSL gethydrate.dev/install | sh
 ```
 
-Follows your platform: macOS (arm64 + amd64), Linux (arm64 + amd64). WSL works via the Linux path.
+Supported platforms: macOS arm64 / amd64, Linux arm64 / amd64. WSL works via the Linux path.
 
 ## Report a bug
 
-File an [issue](https://github.com/SeamusWaldron/hydrate-public/issues) with the output of `hydrate doctor` and your OS / version. See `.github/ISSUE_TEMPLATE` when it's added.
+[Open an issue](https://github.com/SeamusWaldron/hydrate-public/issues/new/choose) — include the output of `hydrate doctor` and your OS / version.
 
-## Question / discussion
+## Ask a question
 
-Use [Discussions](https://github.com/SeamusWaldron/hydrate-public/discussions) for anything that isn't a defect.
+[Discussions](https://github.com/SeamusWaldron/hydrate-public/discussions) for anything that isn't a defect.
 
 ## License
 
-Hydrate is closed-source commercial software. The Free tier is free for personal and commercial use within the limits described at [gethydrate.dev/pricing](https://gethydrate.dev/pricing). Redistribution and reverse engineering are not permitted.
+Closed-source commercial software; the Free tier is free for personal + commercial use within the limits at [gethydrate.dev/pricing](https://gethydrate.dev/pricing). Redistribution and reverse engineering are not permitted.

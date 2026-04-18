@@ -1,0 +1,14 @@
+name: Question
+description: Not a bug, not a feature — something you're stuck on.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Consider using [Discussions](https://github.com/SeamusWaldron/hydrate-public/discussions) for open-ended questions — they're more discoverable long-term.
+  - type: textarea
+    id: question
+    attributes:
+      label: "Question"
+    validations:
+      required: true
